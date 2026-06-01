@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Pro - Module 3</title>
+    
+    <!--library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Task Application Manager</h1>
+        <p>This application helps me save, edit, and delete tasks.
+</p>
+    </header>
+
+    <main>
+        
+        <section>
+            <form id="item-form">
+                <label for="item-input">What do I need to do?</label>
+                <div class="input-group">
+                    <input type="text" id="item-input" placeholder="e.g. Study Fetch API" required>
+                    <button type="submit">Add</button>
+                </div>
+            </form>
+        </section>
+
+        <div class="sync-container">
+            <button id="sync-btn" title="Fetch data from the server">
+                Sync with Server
+            </button>
+        </div>
+
+        <section>
+            <h3>Item List:</h3>
+            <ul id="item-list">
+            </ul>
+        </section>
+    </main>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
