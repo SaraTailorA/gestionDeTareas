@@ -85,7 +85,7 @@ project-folder/
 * `README.md`: Project documentation.
 
 ```md
-## 🔧 Future Improvements
+## Future Improvements
 
 - Add task completion status
 - Add task categories
@@ -93,8 +93,7 @@ project-folder/
 - Implement authentication
 - Deploy backend online
 
-```md
-## 👩‍💻 Author
+## Author
 
 Developed by Sara Carolina Tailor Acosta as part of Module 3: Advanced JavaScript.
 
