@@ -1,15 +1,15 @@
-# Mini Web App: Task list Manager 🚀
+# Mini Web App: Task list Application
 
 This project is a comprehensive web application developed as part of **Module 3: Advanced JavaScript**. It demonstrates the integration of modern frontend techniques, including DOM manipulation, data persistence, and server-side communication.
 
-## 📋 Project Objectives
+## Project Objectives
 
 * Implement a complete CRUD (Create, Read, Update, Delete) system.
 * Manage asynchronous operations using `Fetch API` and `async/await`.
 * Ensure data persistence using both `LocalStorage` and a simulated backend (`JSON Server`).
 * Create a responsive and aligned UI using `CSS Flexbox`.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **HTML5**: Semantic structure.
 * **CSS3**: Custom styling with Flexbox for perfect button alignment.
@@ -17,7 +17,7 @@ This project is a comprehensive web application developed as part of **Module 3:
 * **Water.css**: Minimalist CSS framework for a clean baseline.
 * **JSON Server**: Local REST API simulation.
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ Prevents empty entries and ensures data integrity.
 * **Update**: Edit item names using a dynamic prompt.
 * **Delete**: Remove items from both the UI and the server.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 project-folder/
