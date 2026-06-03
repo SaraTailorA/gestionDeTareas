@@ -35,7 +35,7 @@ const fetchItems = async () => {
         renderItems();
         saveToLocalStorage();
 
-        console.log("Synchronized with server ✅");
+        console.log("Synchronized with server");
 
     } catch (error) {
         console.error("Error:", error);
@@ -80,35 +80,30 @@ const deleteItemServer = async (id) => {
     }
 };
 
-// DOM MANIPULATION
+// DOM
 
 const renderItems = () => {
-    itemList.innerHTML = ''; // Clear list
+    itemList.innerHTML = ''; 
 
     itemsArray.forEach((item, index) => {
         const li = document.createElement('li');
 
-        // Task text
         const span = document.createElement('span');
         span.textContent = item.name;
 
-        // Button container (for perfect alignment)
         const btnGroup = document.createElement('div');
         btnGroup.classList.add('button-group');
 
-        // Edit button
         const editBtn = document.createElement('button');
         editBtn.textContent = 'Edit';
         editBtn.classList.add('edit-btn');
         editBtn.onclick = () => editItem(item.id, index);
 
-        // Delete button
         const deleteBtn = document.createElement('button');
         deleteBtn.textContent = 'Delete';
         deleteBtn.classList.add('delete-btn');
         deleteBtn.onclick = () => deleteItem(item.id, index);
 
-        // Organize elements
         btnGroup.appendChild(editBtn);
         btnGroup.appendChild(deleteBtn);
 
